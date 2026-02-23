@@ -1,0 +1,81 @@
+# --------------------------------
+# Go build artifacts / binaries
+# --------------------------------
+# Local build outputs (CLI and GUI binaries)
+hcc-client
+hcc-client.exe
+cmd/**/hcc-client-gui
+cmd/**/hcc-client-gui.exe
+
+# Generic compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binaries / temp output
+*.test
+*.out
+
+# Optional: local build folders
+/bin/
+/build/
+/dist/
+
+# Coverage reports
+coverage.out
+*.coverprofile
+
+# --------------------------------
+# Dependency / cache folders
+# (Usually outside the repo, but ignore just in case)
+# --------------------------------
+/vendor/
+/pkg/
+/gocache/
+/.gocache/
+
+# --------------------------------
+# Config / secrets (if used)
+# --------------------------------
+# Local env files should never be committed
+.env
+.env.local
+.env.*.local
+
+# Local HCC wallet store (e.g. from tests)
+*.hccwallet.json
+
+# --------------------------------
+# Editor / IDE / OS junk
+# --------------------------------
+
+# VS Code
+.vscode/
+
+# JetBrains / GoLand
+.idea/
+
+# Generic editor swap / backup files
+*.swp
+*.swo
+*~
+*.bak
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails / Finder / Spotlight
+._*
+.Spotlight-V100
+.Trashes
+
+# --------------------------------
+# Logs / misc
+# --------------------------------
+*.log
+logs/
+hccwalletgui
