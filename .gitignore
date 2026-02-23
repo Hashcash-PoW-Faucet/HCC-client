@@ -78,4 +78,4 @@ coverage.out
 # --------------------------------
 *.log
 logs/
-hccwalletgui
+/hccwalletgui
