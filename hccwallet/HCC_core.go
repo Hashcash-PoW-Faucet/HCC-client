@@ -76,7 +76,7 @@ func LoadStore(path string) (*Store, error) {
 			// default
 			return &Store{
 				Config: Config{
-					APIBaseURL: "https://hashcash-pow-faucet.dynv6.net/api",
+					APIBaseURL: "https://hashcashfaucet.com/api",
 				},
 				Wallets: []Wallet{},
 			}, nil
