@@ -110,7 +110,7 @@ func main() {
 	// Build client from config
 	baseURL := store.Config.APIBaseURL
 	if baseURL == "" {
-		baseURL = "https://hashcash-pow-faucet.dynv6.net/api" // fallback
+		baseURL = "https://hashcashfaucet.com/api" // fallback
 	}
 	client := hccwallet.NewClient(baseURL)
 
